@@ -20,6 +20,8 @@
 /*
  * A estrutura (struct) "t_individuo" representa um unico individuo da populacao
  */
+
+
 typedef struct {
     float x1;
     float x2;
@@ -227,7 +229,7 @@ void op_mutacao(t_individuo *filho, float prob_mutacao, int funcao){
  * O procedimento abaixo e responsavel por recombinar os codigos geneticos de ambos os pais
  * para criar um novo individuo descendente (filho).
  *
- * Foi implementado o operador de recombinação Aritmetica Completa.
+ * Foi implementado o operador de recombinaï¿½ï¿½o Aritmetica Completa.
  
  * Os parametros de entrada deste procedimento sao:
  *  - os pais selecionados no torneio ("pai" e "mae")
